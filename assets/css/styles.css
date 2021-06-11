@@ -1,0 +1,29 @@
+.dropdown:hover .otomatikac {
+    display: block;
+    margin-top: 0;
+}
+
+.tab-pane.active {
+    animation: slide-down .2s ease-out;
+}
+
+.modal-body .input-group{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+nav{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

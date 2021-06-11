@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sensör Yönetimi</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="supreme-container" style="height: 100vh;">
+    <div class="header-dark" style="min-height: 100%;">
+        <nav class="navbar sticky-top navbar-dark navbar-expand-lg navigation-clean-search">
+            <div class="container">
+                <a class="navbar-brand" href="/">Ana Sayfa</a>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+
+                    </ul>
+                    <div class="me-auto"></div>
+                    <div class="dropdown animate__animated animate__jello">
+                        <a class="dropdown-toggle" style="margin: 5px;color:#d4af37" data-toggle="dropdown"
+                           aria-expanded="false" id="kullaniciadi">kullanıcı</a>
+                        <div class="dropdown-menu otomatikac" role="menu" style="left: auto;">
+                            <a class="dropdown-item" role="presentation" onclick="logout();">Çıkış</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container hero">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h1 class="text-center">Sensör Yönetimi</h1>
+                    <div class="bounce animated" style="background-color: #ffffff;border-radius: 10px;padding: 10px;">
+                        <ul class="nav nav-tabs" role="tablist" id="tabList">
+
+                        </ul>
+                        <div class="tab-content" id="tabContent">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/firebase-app.js"></script>
+<script src="assets/js/firebase-auth.js"></script>
+<script src="assets/js/firebase-firestore.js"></script>
+<script src="assets/js/firebase_init.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/apexcharts.min.js"></script>
+</body>
+</html>
